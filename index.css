@@ -43,8 +43,14 @@ body {
 
 .items {
   background-color: var(--cor-4);
+  text-decoration: none;
+  color: black;
   padding-left: 2%;
   font-size: 1.5rem;
+}
+
+.items i {
+  background-color: var(--cor-4);
 }
 
 .main-info {
@@ -77,4 +83,53 @@ body {
 main section .face-img {
   border-radius: 100%;
   height: 400px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+.projects-title {
+  text-align: center;
+  margin: 8px 0px;
+  background-color: var(--cor-4);
+}
+
+.project {
+  background-color: var(--cor-6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.project-img {
+  width: 75%;
+  background-color: var(--cor-6);
+}
+
+/* project-img
+project-info
+project-link
+project-description */
+
+.project-info {
+  background-color: var(--cor-6);
+}
+
+.project-link h2 {
+  background-color: var(--cor-6);
+}
+
+.project-link {
+  color: black;
+}
+
+.project-description {
+  background-color: var(--cor-6);
 }
